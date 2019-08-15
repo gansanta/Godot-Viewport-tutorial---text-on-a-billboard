@@ -1,4 +1,4 @@
-# Godot-Viewport-tutorial---text-on-3D-surface
+# Godot-Viewport-tutorial---text-on-a-billboard
 
 1. In Godot, create a 2D scene at first. It will contain a colorRect as Background, a sprite as the Icon, a label as the Name and another label as the Description node. See the image below.
 ![img01-2Dscene.png](https://github.com/gansanta/Godot-Viewport-tutorial---text-on-a-billboard/blob/master/img01-2Dscene.png)
