@@ -1,10 +1,10 @@
 # Godot-Viewport-tutorial---text-on-3D-surface
 
-1. Create a 2D scene at first. It will contain an icon, a title and a description. See the image below.
+1. In Godot, create a 2D scene at first. It will contain a colorRect as Background, a sprite as the Icon, a label as the Name and another label as the Description node. See the image below.
 ![img01-2Dscene.png](https://github.com/gansanta/Godot-Viewport-tutorial---text-on-a-billboard/blob/master/img01-2Dscene.png)
 
 
-2. Create another 3D scene. Save it as a billboard scene. It will contain a screen, a Viewport that will have the 2D scene we created earlier. See the screenshot below.
+2. Create another 3D scene. Save it as a billboard scene. It will contain a spatial node as the Billboard, a viewport, a Scene2D instance of the 2D scene we have created earlier, and a 3D MeshInstance as a Screen. See the screenshot below.
 ![img02-billboard.png](https://github.com/gansanta/Godot-Viewport-tutorial---text-on-a-billboard/blob/master/img02-billboard.png)
 
 Important things about Viewport:
@@ -20,7 +20,10 @@ Important things about Viewport:
  5) While Screen node selected, find the Geometry in the GeometryInstance in the Inspector tab. Expand it. Find the Material Override property and choose new spatial material. Then click on it again.
 ![img05-screen.png](https://github.com/gansanta/Godot-Viewport-tutorial---text-on-a-billboard/blob/master/img05-screen.png)
 
-6) New Spatial Material will open with lots of properties. Scroll down below and find Resource and set Local to Scene as on. See the image.
+6) New Spatial Material will open with lots of properties. Scroll down below and find Resource and set Local to Scene as on. Otherwise you won't be able to select the Viewport as a texture.
 ![img06-screen2.png](https://github.com/gansanta/Godot-Viewport-tutorial---text-on-a-billboard/blob/master/img06-screen2.png)
 
-7) 
+7) Now scroll up and find Albedo. Expand it and find the texture. In the texture menu, select New ViewportTexture. A dialogbox will ask you to pick up a viewport. Pick the viewport and you are done. See the image.
+![img07-screen3.png](https://github.com/gansanta/Godot-Viewport-tutorial---text-on-a-billboard/blob/master/img07-screen3.png)
+
+You have got your wonderful Godot billboard.
