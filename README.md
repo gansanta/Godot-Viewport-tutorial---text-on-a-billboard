@@ -17,4 +17,10 @@ Important things about Viewport:
   4) The screen is a mesh instance. Set its mesh size as: x=10, y=6, z=1. Later you can try with different values.
  ![img03-meshsize.png](https://github.com/gansanta/Godot-Viewport-tutorial---text-on-a-billboard/blob/master/img03-meshsize.png)
  
- 5) While Screen MeshInstance selected, find the Geometry in the GeometryInstance in the Inspector tab. Expand it. Find the Material Override property and choose new spatial material. Then click on it again.
+ 5) While Screen node selected, find the Geometry in the GeometryInstance in the Inspector tab. Expand it. Find the Material Override property and choose new spatial material. Then click on it again.
+![img05-screen.png](https://github.com/gansanta/Godot-Viewport-tutorial---text-on-a-billboard/blob/master/img05-screen.png)
+
+6) New Spatial Material will open with lots of properties. Scroll down below and find Resource and set Local to Scene as on. See the image.
+![img06-screen2.png](https://github.com/gansanta/Godot-Viewport-tutorial---text-on-a-billboard/blob/master/img06-screen2.png)
+
+7) 
