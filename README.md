@@ -16,3 +16,5 @@ Important things about Viewport:
   3) Put the Viewport the first on the hierarchy. Otherwise sometimes it will throw an error.
   4) The screen is a mesh instance. Set its mesh size as: x=10, y=6, z=1. Later you can try with different values.
  ![img03-meshsize.png](https://github.com/gansanta/Godot-Viewport-tutorial---text-on-a-billboard/blob/master/img03-meshsize.png)
+ 
+ 5) While Screen MeshInstance selected, find the Geometry in the GeometryInstance in the Inspector tab. Expand it. Find the Material Override property and choose new spatial material. Then click on it again.
